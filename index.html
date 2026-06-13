@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Eslam Mohamed Badawy - Junior Full Stack Developer"
+    />
+    <meta
+      name="keywords"
+      content="Full Stack Developer, React, Node.js, MongoDB, Portfolio"
+    />
+    <meta name="author" content="Eslam Mohamed Badawy" />
+
+    <title>Eslam Mohamed Badawy - Full Stack Developer Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body dir="ltr">
+    <div class="portfolio-container">
+      <!-- Navigation -->
+      <nav class="navbar navbar-dark navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home">
+            <span class="brand-accent">EB</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="container-fluid h-100 d-flex align-items-center">
+          <div class="row w-100">
+            <div class="col-lg-8 col-md-10">
+              <div class="hero-content">
+                <h1 class="display-3 fw-bold">
+                  Eslam Mohamed <span class="text-accent">Badawy</span>
+                </h1>
+                <p class="lead mt-3">Full Stack Developer</p>
+                <p class="hero-description mt-4">
+                  Building responsive, data-driven web applications with React,
+                  Node.js, and modern development practices. Experienced in
+                  cloud platforms, DevOps, and delivering scalable solutions.
+                </p>
+                <div class="hero-cta mt-5">
+                  <a href="#projects" class="btn btn-accent btn-lg me-3"
+                    >View My Work</a
+                  >
+                  <a href="#contact" class="btn btn-outline-accent btn-lg"
+                    >Get in Touch</a
+                  >
+                </div>
+                <div class="hero-socials mt-5">
+                  <a
+                    href="https://github.com/EslamBadawy1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/eslambadawyy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a href="mailto:eslammbadawy1@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section py-5">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <p class="lead fs-5 mb-4">
+                I'm a full-stack developer with hands-on experience building
+                responsive web applications. My journey in software development
+                has equipped me with strong skills across the entire development
+                stack.
+              </p>
+              <p class="lead fs-5 mb-4">
+                I specialize in frontend development with React and TypeScript,
+                while also maintaining solid backend expertise with Node.js and
+                Express. I'm passionate about clean code, user experience, and
+                continuous learning.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <div class="about-stats">
+                <div class="stat-card">
+                  <h3 class="stat-number">4+</h3>
+                  <p class="stat-label">Major Projects Delivered</p>
+                </div>
+                <div class="stat-card">
+                  <h3 class="stat-number">5+</h3>
+                  <p class="stat-label">Professional Certifications</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section py-5 bg-darker">
+        <div class="container">
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="skill-category">
+                <h4 class="skill-title">Frontend</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">HTML5</span>
+                  <span class="skill-tag">CSS3</span>
+                  <span class="skill-tag">JavaScript</span>
+                  <span class="skill-tag">TypeScript</span>
+                  <span class="skill-tag">React</span>
+                  <span class="skill-tag">Tailwind CSS</span>
+                  <span class="skill-tag">Bootstrap</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="skill-category">
+                <h4 class="skill-title">Backend</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">Node.js</span>
+                  <span class="skill-tag">Express.js</span>
+                  <span class="skill-tag">Socket.IO</span>
+                  <span class="skill-tag">RESTful APIs</span>
+                  <span class="skill-tag">MVC Architecture</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="skill-category">
+                <h4 class="skill-title">Databases</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">MongoDB</span>
+                  <span class="skill-tag">SQL Server</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="skill-category">
+                <h4 class="skill-title">Cloud & DevOps</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">AWS</span>
+                  <span class="skill-tag">Docker</span>
+                  <span class="skill-tag">Kubernetes</span>
+                  <span class="skill-tag">Linux</span>
+                  <span class="skill-tag">CI/CD</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="skill-category">
+                <h4 class="skill-title">Tools & Other</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">Git</span>
+                  <span class="skill-tag">GitHub</span>
+                  <span class="skill-tag">Postman</span>
+                  <span class="skill-tag">OOP</span>
+                  <span class="skill-tag">Design Patterns</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section py-5">
+        <div class="container">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="row">
+            <div class="col-lg-6 mb-4">
+              <div class="project-card">
+                <div class="project-header">
+                  <h3 class="project-title">Plant Disease Diagnosis App</h3>
+                  <span class="project-type">Graduation Project</span>
+                </div>
+                <p class="project-description">
+                  Full-stack web and mobile application with AI-powered disease
+                  detection
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge">React</span>
+                  <span class="tech-badge">Node.js</span>
+                  <span class="tech-badge">MongoDB</span>
+                  <span class="tech-badge">AI</span>
+                </div>
+                <ul class="project-highlights">
+                  <li><span class="highlight-icon">✓</span> RESTful APIs</li>
+                  <li><span class="highlight-icon">✓</span> Responsive UI</li>
+                  <li>
+                    <span class="highlight-icon">✓</span> Disease detection &
+                    recommendations
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="project-card">
+                <div class="project-header">
+                  <h3 class="project-title">E-Commerce Platform</h3>
+                  <span class="project-type">Full-Stack Project</span>
+                </div>
+                <p class="project-description">
+                  Complete furniture & accessories store with payment
+                  integration
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge">MERN Stack</span>
+                  <span class="tech-badge">Authentication</span>
+                  <span class="tech-badge">Shopping Cart</span>
+                </div>
+                <ul class="project-highlights">
+                  <li><span class="highlight-icon">✓</span> Product catalog</li>
+                  <li>
+                    <span class="highlight-icon">✓</span> Order management
+                  </li>
+                  <li>
+                    <span class="highlight-icon">✓</span> Responsive design
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="project-card">
+                <div class="project-header">
+                  <h3 class="project-title">Dental Clinic Booking System</h3>
+                  <span class="project-type">Full-Stack Application</span>
+                </div>
+                <p class="project-description">
+                  Online appointment scheduling platform for dental clinics
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge">React</span>
+                  <span class="tech-badge">Node.js</span>
+                  <span class="tech-badge">MongoDB</span>
+                </div>
+                <ul class="project-highlights">
+                  <li>
+                    <span class="highlight-icon">✓</span> Patient registration
+                  </li>
+                  <li>
+                    <span class="highlight-icon">✓</span> Appointment scheduling
+                  </li>
+                  <li>
+                    <span class="highlight-icon">✓</span> Clinic management
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="project-card">
+                <div class="project-header">
+                  <h3 class="project-title">CRM System</h3>
+                  <span class="project-type">Enterprise Project</span>
+                </div>
+                <p class="project-description">
+                  Customer Relationship Management with advanced features
+                </p>
+                <div class="project-tech">
+                  <span class="tech-badge">React</span>
+                  <span class="tech-badge">Node.js</span>
+                  <span class="tech-badge">SQL Server</span>
+                </div>
+                <ul class="project-highlights">
+                  <li>
+                    <span class="highlight-icon">✓</span> Role-based access
+                  </li>
+                  <li>
+                    <span class="highlight-icon">✓</span> Real-time updates
+                  </li>
+                  <li>
+                    <span class="highlight-icon">✓</span> Advanced dashboards
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="section py-5 bg-darker">
+        <div class="container">
+          <h2 class="section-title">Work Experience</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3 class="timeline-title">Full-Stack Developer Intern</h3>
+                <p class="timeline-company">Digilians Initiative – MCIT</p>
+                <ul class="timeline-description">
+                  <li>
+                    Developed full-stack web applications using React, Node.js,
+                    MongoDB, and SQL Server
+                  </li>
+                  <li>
+                    Designed and implemented RESTful APIs following MVC
+                    architecture
+                  </li>
+                  <li>
+                    Performed CRUD operations and implemented backend business
+                    logic
+                  </li>
+                  <li>
+                    Used Git and GitHub for collaboration and version control
+                  </li>
+                  <li>
+                    Worked on real-world simulation projects using agile
+                    practices
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="section py-5">
+        <div class="container">
+          <h2 class="section-title">Education</h2>
+          <div class="row">
+            <div class="col-lg-6 mb-4">
+              <div class="education-card">
+                <h4 class="education-degree">
+                  Bachelor's Degree in Computer Science
+                </h4>
+                <p class="education-institution">Beni Suef University</p>
+                <p class="education-period">Sep 2020 – Jul 2024</p>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="education-card">
+                <h4 class="education-degree">
+                  Specialized Diploma in Software Development
+                </h4>
+                <p class="education-institution">
+                  Digilians Initiative – Ministry of Communications and IT
+                </p>
+                <p class="education-period">Dec 2023 – Aug 2024</p>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="section-subtitle mt-5">Professional Certifications</h3>
+          <div class="certificates-grid">
+            <div class="cert-item">
+              <i class="fas fa-certificate cert-icon"></i>
+              <span>Meta Front-End Developer Professional Certificate</span>
+            </div>
+            <div class="cert-item">
+              <i class="fas fa-certificate cert-icon"></i>
+              <span>JavaScript Programming with React, Node & MongoDB</span>
+            </div>
+            <div class="cert-item">
+              <i class="fas fa-certificate cert-icon"></i>
+              <span>DevOps Complete Course Specialization</span>
+            </div>
+            <div class="cert-item">
+              <i class="fas fa-certificate cert-icon"></i>
+              <span>Delivering Quality Work with Agility – IBM</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section py-5 bg-darker">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="lead mb-5">
+              Let's connect! I'm always interested in hearing about new projects
+              and opportunities.
+            </p>
+            <div class="contact-methods">
+              <div class="contact-card">
+                <i class="fas fa-envelope contact-icon"></i>
+                <a href="mailto:eslammbadawy1@gmail.com"
+                  >eslammbadawy1@gmail.com</a
+                >
+              </div>
+              <div class="contact-card">
+                <i class="fas fa-phone contact-icon"></i>
+                <a href="tel:+201068536700">+20 106 853 6700</a>
+              </div>
+              <div class="contact-card">
+                <i class="fas fa-map-marker-alt contact-icon"></i>
+                <p>Cairo, Egypt</p>
+              </div>
+            </div>
+            <div class="contact-socials mt-5">
+              <a
+                href="https://github.com/EslamBadawy1"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-outline-accent"
+              >
+                <i class="fab fa-github me-2"></i>GitHub
+              </a>
+              <a
+                href="https://www.linkedin.com/in/eslambadawyy"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-outline-accent"
+              >
+                <i class="fab fa-linkedin me-2"></i>LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <p>&copy; 2024 Eslam Mohamed Badawy. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
